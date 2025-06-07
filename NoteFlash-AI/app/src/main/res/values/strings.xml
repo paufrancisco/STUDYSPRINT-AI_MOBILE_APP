@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NoteFlash AI</string>
+
+    <string name="heading_one">Scan and Convert Notes</string>
+    <string name="heading_two">AI-Powered Flashcards</string>
+    <string name="heading_three">Adaptive Learning</string>
+    <string name="heading_fourth">Study Smarter</string>
+
+    <string name="desc_one">Quickly scan or upload notes and let AI transform them into flashcards for easy learning.</string>
+    <string name="desc_two">Our advanced AI creates flashcards from your notes, making it simple to study anywhere, anytime, with the Pomodoro timer to help you manage your study sessions effectively.</string>
+    <string name="desc_three">Learn at your own pace with adaptive learning, as the app adjusts based on your responses.</string>
+    <string name="desc_fourth">Stay on top of your study goals with features designed to make learning more efficient and effective.</string>
+
+
+
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".Fragments.About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Our App"
+            android:textSize="24sp"
+            android:textColor="@color/blue"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+         <TextView
+            android:id="@+id/app_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our app allows users to scan their notes and convert them into flashcards for efficient study. It uses OCR technology to extract text and for adaptive learning. Your decks can be synced and accessed on any device when logged in."
+            android:textSize="16sp"
+            android:layout_below="@id/about_title"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"/>
+
+         <TextView
+            android:id="@+id/features_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Features"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/app_description"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/features_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Scan notes to generate flashcards\n• Adaptive learning\n• Real-time study feedback\n• Easy-to-use OCR functionality\n• Track progress and performance\n• Offline study mode\n• Sync decks across devices when logged in"
+            android:textSize="16sp"
+            android:layout_below="@id/features_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"/>
+
+         <TextView
+            android:id="@+id/developers_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Developers"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/features_list"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/developer_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paulo Faustiniel Angelo L Francisco\nRed Sebastian\nGelmore Laguio"
+            android:textSize="16sp"
+            android:layout_below="@id/developers_title"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"/>
+
+         <TextView
+            android:id="@+id/version_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Version"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/developer_names"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:textSize="16sp"
+            android:layout_below="@id/version_title"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"/>
+
+         <TextView
+            android:id="@+id/contact_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/version_number"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/contact_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For support, feedback, or inquiries:\nEmail: support@flashcardmaker.com"
+            android:textSize="16sp"
+            android:layout_below="@id/contact_title"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+</ScrollView>

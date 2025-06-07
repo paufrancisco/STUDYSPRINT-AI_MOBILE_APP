@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "657183555870",
+    "project_id": "noteflash-ai-566e3",
+    "storage_bucket": "noteflash-ai-566e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657183555870:android:702c22581da0bef117c90f",
+        "android_client_info": {
+          "package_name": "com.jtdev.umak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657183555870-3gg470d4dkifnq5ivasfg0dpmn1aa6n2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jtdev.umak",
+            "certificate_hash": "e9edb36f6c731aa671355cd447fe1c7ca42d086d"
+          }
+        },
+        {
+          "client_id": "657183555870-k26rfsnfbg2h452te35gmi0ejjdqenv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8p-ce2Jn-FH8KtkFRvZxIMaO80utC2J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657183555870-k26rfsnfbg2h452te35gmi0ejjdqenv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

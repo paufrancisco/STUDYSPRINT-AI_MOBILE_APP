@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_decks"
+            android:icon="@drawable/deck"
+            android:title="Decks"/>
+
+        <item
+            android:id="@+id/nav_cardbrowser"
+            android:icon="@drawable/baseline_library_books_24"
+            android:title="Card browser"/>
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/statistics"
+            android:title="Statistics"/>
+
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/baseline_info_24"
+                android:title="About Us"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Logout"/>
+
+
+        </menu>
+
+    </item>
+
+</menu>

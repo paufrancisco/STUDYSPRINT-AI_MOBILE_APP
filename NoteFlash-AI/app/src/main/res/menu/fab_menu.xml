@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_ai"
+        android:title="Scan Doc to Convert"
+        android:icon="@drawable/ai"
+        android:titleTextColor="@color/active"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_add_manual"
+        android:title="Create Deck Manually"
+        android:icon="@drawable/manual"
+        android:titleTextColor="@color/active"
+    android:showAsAction="ifRoom"/>
+</menu>

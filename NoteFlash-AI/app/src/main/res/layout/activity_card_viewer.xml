@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+     <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:indeterminate="false"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"/>
+
+     <TextView
+        android:id="@+id/cardlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/progressBar"
+        android:layout_toRightOf="@+id/remaining"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/remaining"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/remaining"
+        android:layout_below="@+id/progressBar"
+        />
+    <ImageView
+        android:id="@+id/correct"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/progressBar"
+        android:layout_toLeftOf="@id/correctanswer"
+
+        />
+
+     <TextView
+        android:id="@+id/correctanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:text="0"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        />
+
+     <TextView
+        android:id="@+id/cardFrontTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Front"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/correctanswer"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+     <TextView
+        android:id="@+id/cardBackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Back"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/cardFrontTextView"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+     <Button
+        android:id="@+id/showAnswerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Answer"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentBottom="true"
+
+        />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+         <Button
+            android:layout_marginRight="2dp"
+            android:id="@+id/hardButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hard"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            android:padding="12dp" />
+
+         <Button
+            android:layout_marginRight="2dp"
+            android:id="@+id/mediumButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Medium"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            android:padding="12dp" />
+
+         <Button
+            android:layout_marginRight="2dp"
+            android:id="@+id/goodButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Good"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            android:padding="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>

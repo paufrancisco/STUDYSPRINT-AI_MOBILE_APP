@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Fragments.PomodoroNotification">
+
+    <TextView
+        android:id="@+id/pomodoroLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:text="Set Pomodoro Timer"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:contentDescription="Start Pomodoro Button"
+        android:importantForAccessibility="yes"
+        android:text="Start Pomodoro"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setsInput" />
+
+    <TextView
+        android:id="@+id/remainingTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Time remaining: "
+        android:textColor="@color/inactive"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/saveButton"
+        app:layout_constraintTop_toBottomOf="@+id/saveButton" />
+
+    <EditText
+        android:id="@+id/setsInput"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="Number of Sets Input"
+        android:gravity="center"
+        android:hint="4"
+        android:importantForAccessibility="yes"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/restTimeInput"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/restTimeInput"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:contentDescription="Rest Time Input"
+        android:gravity="center"
+        android:hint="5"
+        android:importantForAccessibility="yes"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/studyTimeInput"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Study (min):"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/saveButton"
+        app:layout_constraintTop_toBottomOf="@+id/pomodoroLabel" />
+
+    <EditText
+        android:id="@+id/studyTimeInput"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Study Time Input"
+        android:gravity="center"
+        android:hint="25"
+        android:importantForAccessibility="yes"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/saveButton"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Rest (min):"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sets:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
