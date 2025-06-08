@@ -45,4 +45,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE.txt)
 
 ## Contact
 
-For questions or feedback, reach out at [francisco.paulo.pf@example.com].
+For questions or feedback, reach out at [francisco.paulo.pf@gmail.com].
