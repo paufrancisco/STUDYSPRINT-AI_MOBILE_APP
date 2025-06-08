@@ -36,11 +36,6 @@ Study Sprint AI is a smart Android flashcard app designed to help you memorize f
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for bug fixes, features, or improvements.
-
----
 
 ## License
 
