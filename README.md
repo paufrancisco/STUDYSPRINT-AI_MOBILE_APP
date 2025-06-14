@@ -39,7 +39,7 @@ Study Sprint AI is a smart Android flashcard app designed to help you memorize f
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE.txt) file for details.
+This project is licensed under propriety License. See the [LICENSE](./LICENSE.txt) file for details.
 
 ---
 
